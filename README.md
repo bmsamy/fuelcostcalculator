@@ -23,7 +23,17 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
+## Running application
+
+The application can be accessed at url http://localhost:8081/fuel/cost/15-09-2003/ulsp/25/100
+
+## Given more time
+
 If there is more time, then the CostService should be registerd in a Eureka Server and the REST service finds the Cost Serivce from the registry.
 
+A react front end to enter the values to call this service.
+
 A full test coverage covering all code and scenarios.
+
+
 
